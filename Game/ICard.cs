@@ -2,6 +2,6 @@ namespace Khasino;
 
 public interface ICard
 {
-    CardNumber getNumber(); 
-    CardSymbol getSymbol();
+    CardNumber GetNumber(); 
+    CardSymbol GetSymbol();
 }

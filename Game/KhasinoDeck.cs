@@ -1,8 +1,16 @@
 namespace Khasino;
 
-public class KhasinoDeck: IDeck
+public class KhasinoDeck
 {
-    private ISet<ICard> deck = new HashSet<ICard>
+    public ISet<ICard> Deck { get; set; }
+    public KhasinoDeck()
+    {
+        _initializeDeck();
+    }
+
+    private void _initializeDeck()
+    {
+        Deck = new HashSet<ICard>
     {
         new Card(CardSymbol.Club, CardNumber.One),
         new Card(CardSymbol.Spade, CardNumber.One),
@@ -54,9 +62,5 @@ public class KhasinoDeck: IDeck
         new Card(CardSymbol.Heart, CardNumber.Ten),
         new Card(CardSymbol.Diamond, CardNumber.Ten)
     };
-        
-    public ISet<ICard> getDeck()
-    {
-        return deck;
     }
 }

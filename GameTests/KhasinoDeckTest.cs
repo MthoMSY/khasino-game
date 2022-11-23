@@ -6,11 +6,11 @@ namespace GameTests;
 public class KhasinoDeckTest
 {
     [Fact]
-    public void getDeck_Should_ReturnSetOfFourtyCards()
+    public void GetDeck_Should_ReturnSetOfFourtyCards()
     {
         var khasinoDeck = new KhasinoDeck();
 
-        var deck = khasinoDeck.getDeck();
+        var deck = khasinoDeck.Deck;
         
         Assert.Equal(40, deck.Count);
     }

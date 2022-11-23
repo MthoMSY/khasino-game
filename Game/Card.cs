@@ -11,13 +11,18 @@ public class Card : ICard
         _symbol = symbol;
         _number = number;
     }
-    public CardNumber getNumber()
+    public CardNumber GetNumber()
     {
         return _number;
     }
 
-    public CardSymbol getSymbol()
+    public CardSymbol GetSymbol()
     {
         return _symbol;
+    }
+
+    public override string ToString()
+    {
+        return "{ " + _number + " : " + _symbol + " }";
     }
 }
