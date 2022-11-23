@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KhasinoGame", "KhasinoGame.csproj", "{CAC36549-EDE2-4653-BD1B-3E2B49E3618F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "..\Game\Game.csproj", "{B22D52B1-3871-41D4-ADE4-A30010D5A745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTests", "..\GameTests\GameTests.csproj", "{D3A2F44A-DBC5-4C30-BB10-A802D23A1790}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC36549-EDE2-4653-BD1B-3E2B49E3618F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC36549-EDE2-4653-BD1B-3E2B49E3618F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC36549-EDE2-4653-BD1B-3E2B49E3618F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC36549-EDE2-4653-BD1B-3E2B49E3618F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22D52B1-3871-41D4-ADE4-A30010D5A745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22D52B1-3871-41D4-ADE4-A30010D5A745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22D52B1-3871-41D4-ADE4-A30010D5A745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22D52B1-3871-41D4-ADE4-A30010D5A745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A2F44A-DBC5-4C30-BB10-A802D23A1790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A2F44A-DBC5-4C30-BB10-A802D23A1790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A2F44A-DBC5-4C30-BB10-A802D23A1790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A2F44A-DBC5-4C30-BB10-A802D23A1790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
